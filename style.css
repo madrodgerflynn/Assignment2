@@ -44,13 +44,17 @@ p {
     font-size: medium;
 }
 .bio {
-    background: lightgrey;
+    display: flex;
     font-family: 'Edu VIC WA NT Beginner', cursive;
     font-size: large;
 }
-.cell {
-    visibility: hidden;
+img {
+    width: 50%;
+    height: 50%;
+    border: 1rem solid gray;
+    
 }
-.cell:hover {
-    visibility: visible;
+.about {
+    display: flex;
+    justify-content: space-evenly;
 }
