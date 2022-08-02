@@ -21,9 +21,18 @@ nav {
     
        
 }
+section {
+    display: grid;
+    justify-content: space-evenly;
+    margin: 3rem;
+    border-radius: 15%;
+    border-style: double;
+    border: 1rem ridge;
+    
+}
 section p {
     display: flex;
-    border: 6px solid rgb(3, 7, 7);
+
     
 }
 a {
@@ -32,4 +41,16 @@ a {
 }
 p {
     font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: medium;
+}
+.bio {
+    background: lightgrey;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: large;
+}
+.cell {
+    visibility: hidden;
+}
+.cell:hover {
+    visibility: visible;
 }
