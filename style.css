@@ -1,105 +1,95 @@
 * {
-    background-color: blueviolet;
-    box-sizing: border-box;
-    /* border: 2px solid black; */
-
-
+  background-color: blueviolet;
+  box-sizing: border-box;
+  /* border: 2px solid black; */
 }
 .header {
-    border: 5px solid black;
-    border-radius: 10px;
-    justify-content: center;
-    font-family: 'Russo One', sans-serif;
-    font-size: 4rem;
-    display: flex;
-    background: dimgrey;
-    flex-direction: column;
+  border: 5px solid black;
+  border-radius: 10px;
+  justify-content: center;
+  font-family: "Russo One", sans-serif;
+  font-size: 4rem;
+  display: flex;
+  background: dimgrey;
+  flex-direction: column;
 }
 /* The nav bar will redirect the user to the corresponding area of the page */
 header nav {
-    
-    justify-self: flex-end;
-    display: flex;
-    padding: 2rem;
-    background: dimgrey 
+  justify-self: flex-end;
+  display: flex;
+  padding: 2rem;
+  background: dimgrey;
 }
 
 nav a {
-    
-    font-family: 'Russo One', sans-serif;
-    background: dimgrey;
-    font-size: small;
-
+  font-family: "Russo One", sans-serif;
+  background: dimgrey;
+  font-size: small;
 }
 section {
-    
-    justify-content: space-evenly;
-    margin: 3rem;
-    border-radius: 2%;
-    border-style: double;
-    border: 2rem ridge;
-    
+  justify-content: space-evenly;
+  margin: 3rem;
+  border-radius: 2%;
+  border-style: double;
+  border: 2rem ridge;
 }
 section p {
-    display: flex;
-
+  display: flex;
+}
+.btn {
+  height: 50px;
+  width: 50px;
 }
 a {
-    padding-right: 2rem;
-    color: black;
+  padding-right: 2rem;
+  color: black;
 }
 p {
-    font-family: 'Edu VIC WA NT Beginner', cursive;
-    font-size: medium;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-size: medium;
 }
 .bio {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Edu VIC WA NT Beginner', cursive;
-    font-size: large;
-    justify-content: space-between;
-    
+  display: flex;
+  flex-direction: column;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-size: large;
+  justify-content: space-between;
 }
 /* image of me */
 .bio img {
-    width: 100%;
-    height: 100%;
-    
-    
+  width: 100%;
+  height: 100%;
 }
 /* my works grid */
 .grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    grid-row-start: 1;
-    grid-row-end: 3;
-
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 .grid img {
-    width: 50%;
-    height: 50%;
+  width: 50%;
+  height: 50%;
 }
 /* about me class header */
 .abe {
-    display: flex;
+  display: flex;
 }
 
 .cell:hover {
-    background: rgb(194, 187, 187);
-    visibility: visible;
-
+  background: rgb(194, 187, 187);
+  visibility: visible;
 }
-@media screen and (min-width:700px) {
-    .bio {
-        display: flex;
-        flex-direction: row;
-        font-family: 'Edu VIC WA NT Beginner', cursive;
-        font-size: large;
-        justify-content: space-between;
-        
-    }
-    .header {
-        flex-direction: row;
-    }
+@media screen and (min-width: 700px) {
+  .bio {
+    display: flex;
+    flex-direction: row;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-size: large;
+    justify-content: space-between;
+  }
+  .header {
+    flex-direction: row;
+  }
 }
